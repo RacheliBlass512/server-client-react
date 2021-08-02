@@ -1,0 +1,29 @@
+
+.num{
+    font-family: "Brush Script MT", cursive;
+    color: #d39e00;
+    font-weight: 700;
+    font-size: 60px;
+    position: absolute;
+    bottom: 75%;
+    right: -22%;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+.img-txt{
+    position: relative;
+    /* display: inline-block; Make the width of box same as image */
+}
+
+/* 
+.box .text{
+    position: absolute;
+    z-index: 999;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    top: 40%; 
+    text-align: center;
+    width: 60%;
+} */

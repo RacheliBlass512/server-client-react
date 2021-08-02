@@ -1,0 +1,68 @@
+.cart-container-r{
+    background-image: url('../../assets/images/BlessLiving-45-45-3D.jpg_q50.jpg');
+    background-repeat: no-repeat;
+    height: 5%;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    justify-content: center;
+    padding: 10px;
+    z-index: -1;
+    font-weight: lighter !important;
+}
+
+.cart-grid{
+    display: grid;
+    grid-template-columns: 50% 50%; 
+    width: 75%;
+    margin-left: 25%;
+}
+
+.forPay{
+    width: 50px;
+    margin-bottom: 5%;
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    text-align: center;
+        border-radius: 0;
+        min-width: 100%;
+    padding: 0.938em;
+    border: none;
+    border-radius: 4px;
+    background-color: #422d3b;
+    color: #fefefe;
+    font-size: large;
+}
+
+.info{
+    position: fixed;
+    width: 25%;
+    border-radius: 6px;
+    box-shadow: 0px 8px 36px #222;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+}
+
+h4, h1{
+    margin-bottom: 1%;
+    margin-top: 1%;
+   font-weight: lighter !important; 
+   text-align: center;
+}
+
+h3{
+    margin-bottom: 1%;
+    margin-top: 1%;
+   font-weight: 500;
+   text-align: center;
+}
+
+.empty-cart-r{
+    border-radius: 6px;
+    box-shadow: 0px 8px 36px #222;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20vh;
+    text-align: center
+}

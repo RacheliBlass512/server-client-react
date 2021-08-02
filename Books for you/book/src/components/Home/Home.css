@@ -1,0 +1,22 @@
+.home-img{
+    background-image: url("./../../assets/images/gettyimages-944631208.jpg");
+    background-repeat: no-repeat;
+    height: 5%;
+    min-height: 35vh;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    justify-content: center;
+    padding: 8vh;
+    z-index: -1;
+    font-weight: lighter !important;
+}
+
+.site-details{
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 6vh;
+    text-align: center;
+    border-radius: 6px;
+    box-shadow: 0px 8px 36px #222;
+    margin: 5%;
+}

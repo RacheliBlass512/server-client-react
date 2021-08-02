@@ -1,0 +1,143 @@
+.btn {
+  min-width: 100%;
+  cursor: pointer;
+  margin-right: 0.25em;
+  margin-top: 0.5em;
+  padding: 0;
+  border: none;
+  border-radius: 4px;
+  background-color: #422d3b;
+  color: #fefefe;
+  font-size: small;
+}
+
+.user-details {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  text-align: center;
+  border-radius: 6px;
+  box-shadow: 0px 8px 36px #222;
+  width: 15%;
+  z-index: 5;
+}
+
+.ul-wrapper {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+ul {
+  list-style-type: none;
+  margin: 0px  !important;
+  padding: 0;
+  overflow: hidden;
+  background-color: #422d3b;
+  z-index: 3;
+}
+
+li {
+  float: right;
+}
+
+li a,
+.dropbtn-r {
+  display: inline-block;
+  color: white !important;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none !important;
+}
+.dropbtn-r{
+  padding: 5px 16px
+
+}
+li a:hover,
+.dropdown-r:hover .dropbtn-r {
+  background-color: #836075;
+}
+
+li.dropdown-r {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  width: auto;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #f1f1f1;
+}
+
+.dropdown-r:hover .dropdown-content {
+  display: block;
+}
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+.active {
+  background-color: #674b5c;
+  font-weight: bold;
+}
+.notActive {
+  background-color: #422d3b;
+}
+
+.cart-active{
+  background-color: #674b5c;
+}
+
+.information-r {
+  float: left;
+}
+
+.icons {
+  color: white;
+  z-index: -2;
+}
+
+.p-information-r {
+  margin: 0;
+  color: white;
+  font-size: small;
+}
+
+.information-sticky{
+  position: fixed;
+}
+
+
+
+.numberCircle {
+    border-radius: 50%;
+    width: 14px;
+    height: 14px;
+    padding: 1px;
+    background: #db86be;
+    color: black;
+    text-align: center;
+    font: 10px Arial, sans-serif;
+    float:right;
+    position: relative;
+    top: -2px;
+    left: -2px;
+    font-weight: bold;
+}

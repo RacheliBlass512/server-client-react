@@ -1,0 +1,36 @@
+.item {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  text-align: center;
+  border-radius: 6px;
+  box-shadow: 0px 8px 36px #222;
+  margin: 5%;
+}
+
+.cart-btn>div>p {
+  margin: 0%;
+}
+
+ .cart-btn{
+   padding: 3%;
+ }
+
+ .img-num-r{
+  position: relative‏
+ }
+
+ .addIncriseBtn{
+  max-width: 30%;
+  margin: 2%;
+ }
+ 
+ .myp{
+   text-align: center;
+   margin-top: 20%;
+   font-size: large;
+   font-weight: 400;
+ }
+
+ .row{
+   justify-content:center;
+ }

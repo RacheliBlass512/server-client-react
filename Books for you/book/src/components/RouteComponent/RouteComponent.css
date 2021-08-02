@@ -1,0 +1,27 @@
+.head-r {
+  background-image: url("./../../assets/images/תמונהt2.png");
+  background-repeat: no-repeat;
+  height: 5%;
+  background-position: center;
+  background-size: cover;
+  min-height: 200px;
+}
+
+div.container-r {
+  height: 10em;
+  position: relative;
+}
+div.container-r p {
+  font-family: "Brush Script MT", cursive;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  font-size: 60px;
+}
+
+.loading{
+  position: sticky;
+}

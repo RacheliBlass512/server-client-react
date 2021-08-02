@@ -1,0 +1,62 @@
+{
+  "name": "picture",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@agney/react-loading": "^0.1.2",
+    "@progress/kendo-drawing": "^1.9.4",
+    "@progress/kendo-licensing": "^1.1.4",
+    "@progress/kendo-react-all": "^4.5.0",
+    "@progress/kendo-react-animation": "^4.5.0",
+    "@progress/kendo-react-dropdowns": "^4.5.0",
+    "@progress/kendo-react-form": "^4.5.0",
+    "@progress/kendo-react-inputs": "^4.5.0",
+    "@progress/kendo-react-intl": "^4.5.0",
+    "@progress/kendo-react-treeview": "^4.5.0",
+    "@progress/kendo-ui": "^2021.1.225",
+    "@testing-library/jest-dom": "^5.11.9",
+    "@testing-library/react": "^11.2.3",
+    "@testing-library/user-event": "^12.6.0",
+    "bootstrap": "^4.6.0",
+    "jquery": "^3.6.0",
+    "query-string": "^7.0.0",
+    "react": "^17.0.1",
+    "react-bootstrap": "^1.5.2",
+    "react-dom": "^17.0.1",
+    "react-hot-toast": "^1.0.2",
+    "react-loadingg": "^1.7.2",
+    "react-notification": "^6.8.5",
+    "react-paypal-express-checkout": "^1.0.5",
+    "react-router": "^5.2.0",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "4.0.1",
+    "react-toast-notifications": "^2.4.3",
+    "react-toast-notifier": "^1.0.3",
+    "react-toastify": "^7.0.3",
+    "web-vitals": "^0.2.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
