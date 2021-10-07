@@ -5,7 +5,7 @@ Divided into categories of: adult books, children's books, cookbooks, comic book
 
 Each category has a separate path.
 
-<u><b>Nav Bar</b></u>:
+**Nav Bar**:
 
 The Nab Bar displays all the categories and clicking on a category sends it to its path.
 
@@ -35,15 +35,15 @@ The nav bar clings to the top of the screen as well as scrolling.
 
 The selected category is noticeable from the other categories.
 
-<u>**For each category:**</u> A list of the books in this category is displayed. The display is by `grid` which allows the display of the books in a convenient way.
+**For each category:** A list of the books in this category is displayed. The display is by `grid` which allows the display of the books in a convenient way.
 
-<u>**For each book:**</u> a picture of the book, name, author and price is displayed. In addition, there is a "Add to cart" button by which the user can add the selected item to the cart.
+**For each book:** a picture of the book, name, author and price is displayed. In addition, there is a "Add to cart" button by which the user can add the selected item to the cart.
 
 For an item that has already been added to the cart, the "Add to Cart" button will no longer be displayed, but 2 buttons: adding the same item or subtracting such an item from the cart. Among them is the amount of items added from this item.
 
 It is not possible to click on the "Add to cart" / "Remove from cart" button as long as there is no response from the server from a previous request.
 
-<u>**The Cart:**</u>
+**The Cart:**
 
 The display of the cart on the screen is divided into 2 parts: one part is the display of all the items ordered by the user, for each item his picture and details are displayed, in the upper right corner of the item is written the number of books ordered from this item. In addition, there is a "Delete from the cart" button that, when clicked, deletes the above item from the cart.
 
@@ -58,7 +58,7 @@ The second part of presenting a cart is showing the amount to be paid. This part
 
     - **Form:** Website registration form. Contains variables for each field. When the user enters the data into the fill fields the data will be recorded into these variables, and only when submitted, if the data has passed the validations - this data will be saved in the save mode explained below
     
-        <u>How to manage validations:</u> The `errors` object contains the errors for each fill field. Errors are displayed when they are not empty. Each data entry updates the errors (call the `handleChange` function)
+        *How to manage validations:* The `errors` object contains the errors for each fill field. Errors are displayed when they are not empty. Each data entry updates the errors (call the `handleChange` function)
     
         When submitting the form, a check is made that there is no error, and there is no empty field - and if so, the data will be saved.
     
@@ -102,4 +102,4 @@ npm i
 npm start
 ```
 
-very important note: beceuse of my DB is on Mongo DB Atlas free acount the free trail had alraedy finiahed so that there is no DB to the site...
+very important note: beceuse of my DB is on Mongo DB Atlas free acount the free trail had alraedy finished so that there is no DB to the site...
